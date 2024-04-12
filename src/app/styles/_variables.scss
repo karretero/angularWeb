@@ -1,0 +1,29 @@
+@use "sass:math";
+@function rem($size) {
+    $remValue: math.div($size, 16px);
+
+    @return #{$remValue}rem;
+}
+
+/* Text */
+$line-height: 1.5;
+$line-height-heading: 1.1;
+
+$h1-fontsize: rem(60px);
+$h2-fontsize: rem(48px);
+$h3-fontsize: rem(34px);
+$h4-fontsize: rem(24px);
+$h5-fontsize: rem(20px);
+$h6-fontsize: rem(18px);
+
+$font-family: "Verdana", "Inter", sans-serif;
+
+
+$xs: '600px';
+$sm: '960px';
+$md: '1264px';
+$lg: '1904px';
+
+$mobile: $xs;
+$tablet: '767px';
+$desktop: $lg;

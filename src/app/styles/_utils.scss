@@ -1,0 +1,12 @@
+@import 'reset';
+@import 'variables';
+@import 'overrides';
+@import 'colors';
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+

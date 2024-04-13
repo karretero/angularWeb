@@ -31,8 +31,8 @@
       "@/shared*": [
         "src/app/@shared/*"
       ],
-      "@/pages/*": [
-        "src/app/pages/*"
+      "@/features/*": [
+        "src/app/features/*"
       ],
       "@/environments/*": [
         "src/environments/*"

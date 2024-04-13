@@ -1,5 +1,5 @@
-import { FooterComponent } from '@/sharedcomponents/footer/footer.component';
-import { HeaderComponent } from '@/sharedcomponents/header/header.component';
+import { FooterComponent } from '@/core/layout/footer/footer.component';
+import { HeaderComponent } from '@/core/layout/header/header.component';
 import { isPlatformBrowser } from '@angular/common';
 import { Component, Inject, PLATFORM_ID } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
